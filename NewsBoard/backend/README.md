@@ -1,0 +1,1 @@
+This is the news board of [https://segmentfault.com/news](https://segmentfault.com/news).
