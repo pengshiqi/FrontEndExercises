@@ -1,0 +1,25 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+Base	backend/updateData.py	/^Base = declarative_base()$/;"	kind:variable	line:13
+Column	backend/updateData.py	/^from sqlalchemy import Column, String, create_engine, Integer$/;"	kind:namespace	line:8
+DBSession	backend/updateData.py	/^DBSession = sessionmaker(bind=engine)$/;"	kind:variable	line:34
+Integer	backend/updateData.py	/^from sqlalchemy import Column, String, create_engine, Integer$/;"	kind:namespace	line:8
+SegmentFault	backend/updateData.py	/^class SegmentFault(Base):$/;"	kind:class	line:16
+String	backend/updateData.py	/^from sqlalchemy import Column, String, create_engine, Integer$/;"	kind:namespace	line:8
+__tablename__	backend/updateData.py	/^    __tablename__ = 'SegmentFault'$/;"	kind:variable	line:18
+author	backend/updateData.py	/^    author = Column(String(20), nullable=False)$/;"	kind:variable	line:22
+comments_number	backend/updateData.py	/^    comments_number = Column(Integer, nullable=False)$/;"	kind:variable	line:23
+create_engine	backend/updateData.py	/^from sqlalchemy import Column, String, create_engine, Integer$/;"	kind:namespace	line:8
+declarative_base	backend/updateData.py	/^from sqlalchemy.ext.declarative import declarative_base$/;"	kind:namespace	line:10
+engine	backend/updateData.py	/^engine = create_engine('mysql+mysqlconnector:\/\/root:123456@localhost:3306\/NewsBoard')$/;"	kind:variable	line:31
+favour_number	backend/updateData.py	/^    favour_number = Column(Integer, nullable=False)$/;"	kind:variable	line:24
+id	backend/updateData.py	/^    id = Column(Integer, primary_key=True, nullable=False)$/;"	kind:variable	line:21
+link	backend/updateData.py	/^    link = Column(String(100), nullable=False)$/;"	kind:variable	line:25
+sessionmaker	backend/updateData.py	/^from sqlalchemy.orm import sessionmaker$/;"	kind:namespace	line:9
+tag	backend/updateData.py	/^    tag = Column(String(20), nullable=False)$/;"	kind:variable	line:26
+title	backend/updateData.py	/^    title = Column(String(100), nullable=False)$/;"	kind:variable	line:27
+updateData.py	backend/updateData.py	1;"	kind:file	line:1
