@@ -1,6 +1,6 @@
 'use strict';
 
-var 
+var
     table = $('.table'),
     league = $("table>caption").text();
 
@@ -27,7 +27,8 @@ function reqListener() {
 
 // Method 1 :
 
-var url = 'http://138.68.40.103:8123/api/table/' + league;
+// var url = 'http://138.68.40.103:8123/api/table/' + league;
+var url = 'http://localhost:8123/api/table/' + league;
 var xhr = new XMLHttpRequest();
 
 xhr.onload = reqListener;

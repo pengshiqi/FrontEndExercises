@@ -8,7 +8,7 @@
 virtualenv venv
 source venv/bin/activate
 pip install -r requirements.txt
-``` 
+```
 
 #### 3. Run the backend program:
 
@@ -17,3 +17,9 @@ python run.py
 ```
 
 #### 4. Open `index.html` in chrome, then you can see the Standing Tables.
+
+----
+
+#### Demo
+
+![icon](img/demo.gif)

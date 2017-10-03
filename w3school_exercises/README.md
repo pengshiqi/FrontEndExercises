@@ -1,0 +1,1 @@
+# These are the exercises of [w3school.com](https://www.w3schools.com/howto/default.asp).
